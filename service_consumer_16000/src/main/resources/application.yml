@@ -58,6 +58,8 @@ resilience4j:
     instances:
       backendD:
         base-config: default
+      timeout1:
+        timeout-duration: 2s
 
 
 
